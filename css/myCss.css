@@ -1,0 +1,352 @@
+﻿@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot?v=4.6.3');
+    src: url('../fonts/Yekan.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/Yekan.woff2?v=4.6.3') format('woff2'), url('../fonts/Yekan.woff?v=4.6.3') format('woff'), url('../fonts/Yekan.ttf?v=4.6.3') format('truetype'), url('../fonts/Yekan.svg?v=4.6.3#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Yekan';
+}
+
+#tabstrip h4 {
+    font-size: 12px;
+    margin: 5px 0 !important;
+}
+
+#tabstrip {
+    background: none !important;
+    border: none;
+}
+
+body {
+    background: none;
+    background-image: url(https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002916/earthatnight-2048.png) !important;
+    background-position: center;
+}
+
+#tabstrip>ul>li {
+    margin-left: 2%;
+    border-radius: 4px;
+    border-top: 0;
+    outline: none;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(234, 219, 219, 0.52);
+    padding: 0 10px;
+}
+
+#tabstrip>ul>li.k-state-active::after {
+    border-color: #3178b5 transparent;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    bottom: -6px;
+    content: "";
+    display: block;
+    left: 50%;
+    position: absolute;
+    width: 0;
+    margin-left: -6px;
+}
+
+#tabstrip>ul>li.k-state-active {
+    background-color: #3178b5 !important;
+    border-color: #3178b5 !important;
+}
+
+.k-tabstrip .k-content.k-state-active {
+    background: rgb(9, 9, 18);
+    color: #fff;
+    /* border-radius: 4px; */
+    border: 1px solid rgba(50, 121, 182, 0.27);
+    /*border:none;*/
+}
+
+#tabstrip>ul>li .k-link {
+    color: #ffffff;
+}
+
+#tabstrip>ul>li:nth-child(3) {
+    margin-left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#tabstrip>ul>li .k-loading {
+    border-top: 0 !important;
+}
+
+#tabstrip>ul {
+    margin-bottom: 20px;
+}
+
+#tabstrip span.k-widget.k-autocomplete.k-header.k-state-default,
+#tabstrip span.k-widget.k-combobox.k-header {
+    width: 100%;
+}
+
+.age li {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.searching {
+    padding: 30px 0;
+    position: relative;
+}
+
+.searching>div {
+    float: right;
+    text-align: right;
+}
+
+.age .k-rtl .k-input,
+.degreeFly .k-rtl .k-input {
+    margin-right: 0 !important;
+}
+
+.flytype {
+    text-align: right;
+    float: right;
+}
+
+.flytype h4 {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.k-content {
+    background: none;
+}
+
+button.searchbtn {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-color: #3279b6;
+    border: none !important;
+}
+
+span.k-widget.k-autocomplete.k-header.k-state-default,
+span.k-widget.k-autocomplete.k-header.k-state-default>input,
+span.k-widget.k-combobox.k-header,
+span.k-dropdown-wrap.k-state-default,
+span.k-dropdown-wrap.k-state-default>input,
+span.k-widget.k-combobox.k-header,
+span.k-dropdown-wrap.k-state-default,
+span.k-dropdown-wrap.k-state-default>input,
+span.k-widget.k-datepicker.k-header,
+span.k-picker-wrap.k-state-default,
+span.k-picker-wrap.k-state-default>input {
+    background: none !important;
+}
+
+.secTab,
+.thrdTab {
+    min-height: 120px;
+    position: relative;
+    padding: 30px 0;
+}
+
+.secTab>div,
+.thrdTab>div {
+    float: right;
+    text-align: right;
+}
+
+.secTab span.k-widget.k-autocomplete.k-header.k-state-default {
+    width: 90%;
+}
+
+.secTab .info li {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.secTab .info {
+    margin: 40px 0 20px 0;
+}
+
+.intro span.k-widget.k-autocomplete.k-header.k-state-default>input,
+.intro span.k-dropdown-wrap.k-state-default>input,
+.intro span.k-dropdown-wrap.k-state-default>input,
+.intro span.k-picker-wrap.k-state-default>input {
+    color: #d8d5d5 !important;
+}
+
+#flyNum {
+    height: 1.65em;
+    line-height: 1.65em;
+    padding: .177em 0;
+    width: 90%;
+    text-indent: .33em;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin: 0;
+    background: none;
+    -webkit-appearance: none;
+}
+
+#searchform #tabstrip>ul {
+    margin-bottom: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+#searchform #tabstrip>ul>li {
+    margin-left: 0;
+    border-radius: 0;
+    margin-right: 0;
+    border: 0;
+}
+
+#listView {
+    margin-top: 60px;
+}
+
+#listView .widget-text-box {
+    border: 0;
+    background: none;
+}
+
+#listView li {
+    width: 33.3333%;
+    width: calc(33.3333% - ( 0.66666666666667 * 30px));
+    display: inline-block;
+    color: #fff;
+}
+
+#listView li .content-box {
+    padding: 25px;
+    position: relative;
+    text-align: center;
+}
+
+#listView li .content-box:before {
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: -15px;
+    content: '';
+    height: 1px;
+    left: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+#listView li .content-box:after {
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 10px;
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 10px;
+    width: 1px;
+}
+
+#listView li:nth-child(3n) .content-box:after,
+#listView li:nth-last-child(-n+3) .content-box:before {
+    display: none;
+}
+
+.textwidget {
+    background: rgba(50, 121, 182, 0.27)
+}
+
+.page-cover {
+    width: 100%;
+    position: fixed;
+    height: 120%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.page-cover .cover-bg-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-cover:after {
+    content: "";
+    /* background: -webkit-gradient(linear, right top, left top, from(#D1335B), to(#00152e)); */
+    background: linear-gradient(to left, #D1335B, #00152e);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+    .page-cover {
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+    }
+}
+
+.page-cover .cover-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: url(http://festivalcontest.net/onewebmedia/%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg);*/
+    background: url(https://flyawaysimulation.com/images/downloadshots/3258-b737-iranair-v2zip-9-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.menu {
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu a {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background: none;
+    line-height: 1;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+
+#current_Search {
+    color: #fff;
+    direction: rtl;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    position: relative;
+    text-align: right;
+}
+
+#current_Search>div {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.srch_title {
+    opacity: .7
+}
+
+.lrgsize {
+    font-size: 18px;
+    padding-right: 10px;
+    margin-left: 40px;
+    opacity: 1 !important
+}
